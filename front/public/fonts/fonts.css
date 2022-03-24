@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'DungGeunMo';
+  src: url('DungGeunMo.woff2') format('woff2'), url('DungGeunMo.woff') format('woff'),
+    url('DungGeunMo.eot') format('eot');
+  font-display: swap;
+}
