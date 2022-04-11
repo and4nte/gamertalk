@@ -3,19 +3,26 @@
   "license": "MIT",
   "description": "",
   "scripts": {
-    "dev": "next"
+    "dev": "next -p 3060"
   },
   "name": "gamertalk-front",
   "version": "1.0.0",
   "main": "index.js",
   "dependencies": {
+    "babel-plugin-styled-components": "^2.0.6",
+    "babel-preset-next": "^1.4.0",
     "nes-react": "^1.0.2",
     "next": "^10.2.3",
+    "next-redux-wrapper": "^6.0.2",
     "node-sass": "^6.0.1",
+    "pixelarticons": "^1.5.0",
     "prop-types": "^15.8.1",
     "react": "^16.14.0",
     "react-dom": "^16.14.0",
-    "react-flexbox-grid": "^2.1.2"
+    "react-redux": "^7.2.8",
+    "redux": "^4.1.2",
+    "redux-devtools-extension": "^2.13.9",
+    "styled-components": "^5.3.5"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
