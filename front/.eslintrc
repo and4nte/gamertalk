@@ -12,11 +12,7 @@
     "node": true,
     "es6": true
   },
-  "extends": [
-    "airbnb",
-    "plugin:react/jsx-runtime",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["airbnb", "plugin:react/jsx-runtime", "plugin:prettier/recommended"],
   "plugins": ["import", "react-hooks", "jsx-a11y"],
   "rules": {
     "import/no-extraneous-dependencies": ["error", { "devDependencies": true }],
@@ -31,6 +27,7 @@
     "react/jsx-one-expression-per-line": "off",
     "object-curly-newline": "off",
     "linebreak-style": "off",
-    "no-param-reassign": "off"
+    "no-param-reassign": "off",
+    "import/prefer-default-export": "off"
   }
 }
