@@ -1,33 +1,25 @@
-import Link from 'next/link';
-import { Header } from './styled/AppHeader.style';
+import styled from 'styled-components';
+import Navbar from './Navbar';
+import ProfileIcon from './ProfileIcon';
 
 const AppHeader = () => {
   return (
     <Header>
-      <ul>
-        <li>
-          <Link href="">
-            <a>새글쓰기</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="">
-            <a>홈</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="">
-            <a>알림</a>
-          </Link>
-        </li>
-        <li>
-          <Link href="">
-            <a>설정</a>
-          </Link>
-        </li>
-      </ul>
+      <ProfileIcon />
+      <Navbar />
     </Header>
   );
 };
 
 export default AppHeader;
+
+const Header = styled.header`
+  display: flex;
+  background-color: black;
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+`;

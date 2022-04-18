@@ -12,7 +12,7 @@ class MyDocument extends Document {
         <Head>
           <link href="../public/fonts/fonts.css" rel="stylesheet" />
         </Head>
-        <body style={{ fontFamily: 'DungGeunMo' }}>
+        <body>
           <Main />
           <NextScript />
         </body>
